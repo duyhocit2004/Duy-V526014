@@ -1,4 +1,4 @@
-package baitap;
+package baitap1;
 import java.util.Calendar;
 // bai tap Scanner
 public class Scanner {
