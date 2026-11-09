@@ -17,7 +17,7 @@ public class Nhanvien extends Nguoi {
         this.hsl = hsl;
     }
 
-    // Getter và Setter
+
     public int getSnct() {
         return snct;
     }
@@ -34,12 +34,12 @@ public class Nhanvien extends Nguoi {
         this.hsl = hsl;
     }
 
-    // Tính tiền lương
+
     public double tinhLuong() {
         return 1.5 * hsl + 0.2 * snct;
     }
 
-    // Ghi đè phương thức nhập
+
     @Override
     public void nhap(Scanner sc) {
         super.nhap(sc);
@@ -51,7 +51,7 @@ public class Nhanvien extends Nguoi {
         hsl = Double.parseDouble(sc.nextLine());
     }
 
-    // Ghi đè phương thức xuất
+
     @Override
     public void xuat() {
         super.xuat();

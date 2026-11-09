@@ -15,7 +15,7 @@ public class Nguoi {
         this.tuoi = tuoi;
     }
 
-    // Getter và Setter
+
     public String getHoTen() {
         return hoTen;
     }
@@ -32,7 +32,7 @@ public class Nguoi {
         this.tuoi = tuoi;
     }
 
-    // Phương thức nhập
+
     public void nhap(Scanner sc) {
         System.out.print("Nhap ho ten: ");
         hoTen = sc.nextLine();
@@ -41,7 +41,7 @@ public class Nguoi {
         tuoi = Integer.parseInt(sc.nextLine());
     }
 
-    // Phương thức xuất
+
     public void xuat() {
         System.out.println("Ho ten: " + hoTen);
         System.out.println("Tuoi: " + tuoi);
